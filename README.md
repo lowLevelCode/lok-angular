@@ -1,27 +1,51 @@
-# Ui
+<p align="center">
+  <a href="https://angular.io/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="Logo" width=72 height=72>
+  </a>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
+  <h3 align="center">Angular Lok App</h3>
 
-## Development server
+  <p align="center">
+    Code challenge para LOK   
+  </p>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Table of contents
 
-## Code scaffolding
+- [Como iniciar](#como-iniciar)
+- [Que se incluye](#que-se-incluye)
+- [Creators](#creators)
+- [Copyright and license](#copyright-and-license)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Como iniciar
 
-## Build
+* Clonar repositorio
+````    
+    git clone https://github.com/lowLevelCode/lok-angular
+````
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+* Instala dependencias 
+````        
+    npm install
+````
 
-## Running unit tests
+* Corre la aplicacion 
+````            
+    ng serve
+````
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Que se incluye
 
-## Running end-to-end tests
+* LOGIN
+* HOME
+* ALBUM
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Creators
 
-## Further help
+**Jesus Raul Alarcon**
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- <https://github.com/lowLevelCode>
+
+## Copyright and license
+
+Code and documentation copyright 2018 the authors. Code released under the [MIT License](https://github.com/Ismaestro/flutter-example-app/blob/master/LICENSE).
