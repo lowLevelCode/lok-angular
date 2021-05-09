@@ -1,0 +1,40 @@
+<div mat-dialog-title>
+  <div fxLayoutAlign="center center">
+    Editar Usuario
+  </div>
+</div>
+
+<div mat-dialog-content>
+  <div fxLayout="column" class="dialog-container">
+    <div fxLayoutAlign="center">
+      <img [src]="userData?.avatar" class="avatar-img">
+    </div>
+    <br>
+
+    <form fxLayout="column" [formGroup]="form" (ngSubmit)="onSubmit()">
+      <mat-form-field appearance="outline" fxFlex>
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="First Name" formControlName="firstName">
+        <mat-icon matPrefix>person</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" fxFlex>
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Last Name" formControlName="lastName">
+        <mat-icon matPrefix>person</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" fxFlex>
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Placeholder" formControlName="email">
+        <mat-icon matPrefix>alternate_email</mat-icon>
+      </mat-form-field>
+
+      <div fxLayoutAlign="end center">
+        <button type="button" mat-button (click)="onCancel()" color="primary" cdkFocusInitial>Cancel</button>
+        <button mat-button color="primary">Save</button>
+      </div>
+    </form>
+
+  </div>
+</div>

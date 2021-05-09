@@ -1,0 +1,23 @@
+<div fxLayout="row" fxLayoutAlign="center center" class="login-container">
+  <mat-card class="card-container mat-elevation-z12">
+    <mat-card-title fxLayoutAlign="center center">Sign In</mat-card-title>
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="onSubmit()" fxLayout="column" fxLayoutAlign="center stretch">
+
+        <mat-form-field appearance="outline">
+          <input type="text" matInput placeholder="Email" formControlName="email">
+          <mat-error *ngIf="email?.errors?.required">User name is <strong>required</strong></mat-error>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <input type="password" matInput placeholder="Password" formControlName="password">
+          <mat-error *ngIf="password?.errors?.required">Password is <strong>required</strong></mat-error>
+        </mat-form-field>        
+
+        <button mat-raised-button color="primary">Sign In</button>
+
+      </form>
+    </mat-card-content>
+  </mat-card>
+
+</div>

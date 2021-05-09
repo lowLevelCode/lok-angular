@@ -1,0 +1,11 @@
+<div fxLayoutAlign="end center">
+    <app-paginator [totalPage]="userResponse?.total_pages" (onPaginate)="onPaginate($event)"></app-paginator>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let user of userResponse?.data">
+      <app-user-card 
+      [user]="user" (onClickPrimaryButton)="onClickPrimaryButton($event)" 
+      (onClickSecondaryButton)="onClickSecondaryButton($event)"></app-user-card>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+  <div fxLayoutAlign="end center" fxFlex>
+    <div><a mat-button [routerLink]="['/home']" routerLinkActive="router-link-active" >Home</a></div>
+    <div><a mat-button [routerLink]="['/home/album']" routerLinkActive="router-link-active" >Album</a></div>
+    <div>
+      <button mat-icon-button>
+        <mat-icon (click)="logout()">logout</mat-icon>
+      </button>
+    </div>
+  </div>
+</mat-toolbar>
+
+<div class="p-4">
+    <router-outlet></router-outlet>
+</div>

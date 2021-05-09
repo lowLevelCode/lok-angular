@@ -1,0 +1,19 @@
+<mat-card class="mat-elevation-z8">
+  <div class="card-content" fxLayout="column" fxLayoutGap="10px">
+    <div fxLayoutAlign="center">
+        <img [src]="user?.avatar" class="avatar-img">
+    </div>
+
+    <div fxLayout="column" fxLayoutAlign="center center">
+        <span>{{user?.first_name}} {{user?.last_name}}</span>
+        <span>{{user?.email}}</span>
+    </div>
+
+    <div fxLayoutAlign="center center" fxLayoutGap="10px">
+        <button mat-raised-button color="primary" (click)="clickPrimaryButton(user)" 
+        [fxShow]="options?.onShowPrimaryButton">{{options?.primaryButtonText}}</button>
+        <button mat-stroked-button (click)="clickSecondaryButton(user)" 
+        [fxShow]="options?.onShowSecondaryButton">{{options?.secondaryButtonText}}</button>
+    </div>
+  </div>
+</mat-card>

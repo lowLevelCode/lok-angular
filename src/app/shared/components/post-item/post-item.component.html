@@ -1,0 +1,14 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" class="p-3">
+    <div fxFlex="15%" fxHide.xs>
+        <img [src]="avatarImg" class="avatar-img-mini">
+    </div>
+    <div fxFlex="auto">
+        <div class="fs-6">{{post?.title}}</div>
+        <div class="text-muted">{{post?.body}}</div>
+    </div>
+    <div>
+        <button mat-icon-button>
+            <mat-icon class="mat-18" (click)="onClear(post.id)">clear</mat-icon>
+        </button>
+    </div>
+</div>

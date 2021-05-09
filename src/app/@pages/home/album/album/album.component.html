@@ -1,0 +1,5 @@
+<div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col" *ngFor="let user of userResponse?.data">
+      <app-user-card [user]="user"  [options]="options" (onClickPrimaryButton)="onClickPrimaryButton($event)"></app-user-card>           
+    </div>
+</div>

@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+
+html, body { height: 100%; }
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;     
+}
+
+.avatar-img{
+    border-radius:50%;
+    box-shadow: 0px 4px 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.avatar-img-mini{
+    border-radius:50%;
+    box-shadow: 0px 4px 10px;
+    width: 70px;
+    height: 70px;
+}
