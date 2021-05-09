@@ -1,62 +1,27 @@
-<p align="center">
-  <a href="https://flutter.io/">
-    <img src="https://diegolaballos.com/files/images/flutter-icon.jpg" alt="Logo" width=72 height=72>
-  </a>
+# Ui
 
-  <h3 align="center">Flutter Geniat App</h3>
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.1.
 
-  <p align="center">
-    Code challenge para Ingeniat    
-  </p>
-</p>
+## Development server
 
-## Table of contents
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-- [Como iniciar](#como-iniciar)
-- [Que se incluye](#que-se-incluye)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
+## Code scaffolding
 
-## Como iniciar
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Esta es una app normal flutter. Mira la documentacion oficial para [instalar Flutter](https://flutter.io/docs/get-started/install).
+## Build
 
-* Clonar repositorio
-````    
-    git clone https://github.com/lowLevelCode/geniat-app.git
-````
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-* Instala dependencias 
-````        
-    flutter packages get
-````
+## Running unit tests
 
-* Corre la aplicacion - si tienes conectado un dispositivo
-````            
-    flutter run
-````
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-* Corre la aplicacion en un dispositivo en especifico
-````            
-    flutter run -d  (deviceId)
-````
+## Running end-to-end tests
 
-* Generar la APK
-````            
-    flutter build apk o flutter build apk --release
-````
-## Que se incluye
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-* LOGIN
-* REGISTRO
-* CONSULTA
+## Further help
 
-## Creators
-
-**Jesus Raul Alarcon**
-
-- <https://github.com/lowLevelCode>
-
-## Copyright and license
-
-Code and documentation copyright 2018 the authors. Code released under the [MIT License](https://github.com/Ismaestro/flutter-example-app/blob/master/LICENSE).
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
